@@ -1,0 +1,204 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>홍선휘 돌잔치 초대장</title>
+	
+	<meta name="description" content="sunwhe's first birthday">
+	<meta name="author" content="T-CUVE">
+	<meta name="copyright" content="T-CUVE">
+	<meta name="date" content="2013-2-13 T00:00:00+02:00">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script>document.createElement('section');var duration=1500,easing='swing';</script>
+	<script src="js/script.js"></script>
+    <!--[if lt IE 9]>
+		<script src="js/css3-mediaqueries.js"></script>
+        <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+        <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/ie7-squish.js"></script>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+
+      function initialize() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: new google.maps.LatLng(37.262303, 127.036142),
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        var center;
+		function calculateCenter() {
+  		center = map.getCenter();
+		}
+		google.maps.event.addDomListener(map, 'idle', function() {
+  		calculateCenter();
+		});
+		google.maps.event.addDomListener(window, 'resize', function() 			
+		{map.setCenter(center);
+		});
+        var infoWindow = new google.maps.InfoWindow({
+          position: map.getCenter(),
+          content: '<strong>폰토스 | puntus<br>밀로스홀</strong><br><br>경기도 수원시 팔달구 인계동 1117<br>031-235-7733'
+        });
+        infoWindow.open(map);
+      }
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+	<style type="text/css">
+		html{height: 100%;background:url(img/wbkbg.png);color:#d1d2d4;}
+		::-moz-selection{background:#333636;color:#a7daf7;}
+		::selection{background:#333636;color:#a7daf7;}
+		#documenter_sidebar #documenter_logo{background-image:url(img/hsh-dol-logo.png);}
+		a{color:#000000;}
+		hr{width:95%;border-top:1px solid #a7daf7;border-bottom:1px solid #a7daf7;}
+		#documenter_sidebar, #documenter_sidebar ol a{background:url(img/jpeg-6.jpeg) repeat;color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;}
+		#documenter_sidebar ol {border-top:1px solid #999;}
+		#documenter_sidebar ol a{border-bottom:1px solid #999;color:#FFFFFF;}
+		#documenter_sidebar ol a:hover{background:#50849b;color:whitesmoke;border-top:1px solid #333636;}
+		#documenter_sidebar ol a.current{background:#50849b;color:whitesmoke;border-top:1px solid #333636;}
+	</style>
+    
+</head>
+<body>
+<div class="mapholder" >
+    <div id="map"></div>
+</div>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+        <div class="logocover"></div>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">초대</a></li>
+			<li><a href="#maps">약도</a></li>
+			<li><a href="#transportation">교통</a></li>
+			<li><a href="#contact">연락</a></li>
+		</ol>
+		<div id="documenter_copyright">
+		<a href="#outro"><img src="img/tqvlogo.png" width="152px"></a>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><img src="img/title.png" style="width:180px; margin-bottom:-5px"><hr>선휘가 세상의 빛을 본지 일년이 되었습니다.<br>선휘의 돌잔치에 오셔서 축복해주세요!<p><b>2013년 2월 23일 토요일 저녁 7시</b></p><p><b>폰토스 1층 밀로스홀</b><br>031-235-7733</h6></p></section>
+
+<section id="maps">
+	<h3>약도</h3><hr class="notop">
+	 <div class="map"><a href="img/map.jpeg"><img src="img/map.jpeg" width="100%" style="margin-bottom:10px"></a></div>
+     <div class="shadowbtn"><a href="img/map.jpeg">약도 크게보기</a></div>
+     <div class="shadowbtn"><a href="googlemapAPI.html">구글 지도보기</a></div>
+</section>
+<section id="transportation">
+	<h3>교통수단</h3><hr class="notop">
+
+<ol><h7>대중교통</h7>
+	<li>
+		<b>인계동 씨티은행</b> 하차 후 갤러리아와 <br>문화의전당 방향 도보 5-10분</li>
+	<li>
+		<b>[일반버스]</b> 52, 88, 83, 83-1, 92, 82-1, 85, 80, 88-1, 92-1 </li>
+    <li>
+		<b>[직행버스]</b> 3007, 7001, 4000, 7002, 3002 </li>
+    
+</ol>
+
+<ol><h7>자가용</h7>
+	<li>
+		<b>네비게이션 주소</b><br>
+		경기도 수원시 팔달구 인계동 1117번지</li>
+</ol>
+<ol><h7>주차</h7>
+	<li>
+		폰토스 건물 지하 주차장</li>
+    <li>
+		만차시 문화의전당 건물 주차 가능</li>
+</ol>
+</section>
+
+<section id="contact">
+	<h3>연락처</h3><hr class="notop">
+<p>궁금하신 사항은 연락주시길 바랍니다</p>
+<div class="shadowbtn"><a>아빠 홍사윤 : 010-5196-1270</a></div>
+<div class="shadowbtn"><a>엄마 장아름 : 010-6549-1270</a></div>
+</section>
+
+<section id="outro">
+	<h3>T-CUVE</h3><hr class="notop">
+<p><h7>Creative Agency</h7><br>
+		반응형 웹표준 홈페이지, 워드프레스<br>
+        온라인 청첩장, 초대장, 감사장<br>
+        명함 및 로고디자인<br> 
+        Anything Creative.
+<p><h7>Wearline</h7>
+        <br>
+		스토리텔링 티셔츠 제작 판매
+        <br>
+ <p><h7>Contact </h7> 티큐브
+	<div class="shadowbtn"><a href="http://t-cuve.com" target="_blank">T-CUVE.com</a></div>
+    <div class="shadowbtn"><a>070-4156-2883</a></div>
+    <div class="shadowbtn"><a href="mailto:mail@t-cuve.com">mail@t-cuve.com</a></div>
+</section>
+
+	</div>
+<div class="content2">
+<div class="tqv"><a href="http://t-cuve.com"><img src="img/tqvlogo.png" width="100%"></a>Creative Agency | Wearline</div>
+
+	<div class="invitation"><img src="img/title.png" style="width:250px; margin-bottom:-5px"></div>
+    <p>선휘가 세상의 빛을 본지 일년이 되었습니다.<br>선휘의 돌잔치에 오셔서 축복해주세요!</p>
+    <div class="time"><c>시 간:</c><br>2013년 2월 23일 토요일<br>저녁 7시</div>
+    <div class="place"><c>장 소:</c><br>폰토스 1층 밀로스 홀<br>수원시 팔달구 인계동 1117번지<br>031-235-7733</div>
+    <div class="navigation">
+    	<ul>
+        	<li>
+            	<div class="navleft"><b>자가용</div>
+                <div class="navright">네비게이션 이용시 주소: <br>경기도 수원시 팔달구 인계동 1117번지</div>
+            </li>
+            <li>
+            	<div class="navleft"><b>주차</div>
+                <div class="navright">폰토스 건물 지하 주차장<br>만차시 문화의전당 건물 주차 가능</div>
+            </li>
+            <li>
+            	<div class="navleft"><b>대중교통</div>
+                <div class="navright">인계동 씨티은행 하차 후 갤러리아와<br> 
+문화의전당 방향 도보 5-10분<br><b>[일반버스]</b> 52, 88, 83, 83-1, 92, 82-1, 85, <br>80, 88-1, 92-1 <br><b>[직행버스]</b> 3007, 7001, 4000, 7002, 3002 </div>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="contact">
+    <li>아빠 홍사윤 : 010-5196-1270</li>
+    <li>엄마 장아름 : 010-6549-1270</li>
+    </div>
+    <div class="tqvcontact">
+	<div class="shadowbtn" style="width:274px;"><a href="http://t-cuve.com" target="_blank">T-CUVE.com</a></div>
+    <div class="shadowbtn" style="width:274px;"><a href="mailto:mail@t-cuve.com">Contact | mail@t-cuve.com</a></div>
+    <br>
+    </div>
+</div><!-- content2 -->
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script type="text/javascript">
+
+ 		 var _gaq = _gaq || [];
+ 		 _gaq.push(['_setAccount', 'UA-37549773-1']);
+ 		 _gaq.push(['_setDomainName', 't-cuve.com']);
+  		 _gaq.push(['_setAllowLinker', true]);
+  	 	 _gaq.push(['_trackPageview']);
+
+  		(function() {
+ 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ 	    })();
+
+        </script>
+</body>
+</html>

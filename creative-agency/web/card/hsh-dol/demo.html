@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebCard - Invitaion DEMO</title>
+
+  <meta name="description" content="T-CUVE | WebCard-Invitaion">
+  <meta name="author" content="T-CUVE, 티큐브">
+  <meta name="copyright" content="T-CUVE, 티큐브">
+  <meta name="keyword" content="T-CUVE,webdesign,web,webcard,invitation,mobilecard,e-card,responsive,모바일카드,카드,청첩장,돌잔치,카드,웹카드,반응형,웹디자인,티큐브">
+  <meta http-equiv="imagetoolbar" content="no"> 
+  
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Sorts+Mill+Goudy);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+* {
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+	width:100%;
+	height:30px;
+	background:white;
+	opacity:0.5;
+}
+.topnav ul {position:absolute;top:5px;right:20px;list-style:none; }
+.topnav li {display:inline-block; margin-left:10px; font-family:'lato',sans-serif}
+.topnav:hover {	opacity:1;}
+body {
+  background:url(../texture%20img/clear.png) repeat;
+  color:#414042;
+  font-family:'Quicksand',Arial, Helvetica, sans-serif;
+}
+.wrapper {
+	width: 1024px;
+  	padding:10px;
+    margin: 30px auto 0;
+}	
+a {color:#414042; text-decoration:none}
+a:hover {color:#00a19a}
+.devices {
+  position: relative;
+  height: 530px;
+  overflow: hidden;
+}
+iframe {
+  transform-origin: top left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #fff;
+}
+.mobile {
+  background: url("http://tcuvecom.cdn2.cafe24.com/img/apple_mockup.png") no-repeat -278px -479px;
+  position: absolute;
+  width: 130px;
+  height: 251px;
+  top: 118px;
+  left: 894px;
+  z-index: 3;
+}
+.mobile iframe {
+  width: 335px;
+  height: 490px;
+  top: 42px;
+  left: 10px;
+  transform: scale(0.32);
+  -webkit-transform: scale(0.32);
+}
+.tablet {
+  background: url("http://tcuvecom.cdn2.cafe24.com/img/apple_mockup.png") no-repeat 0 -470px;
+  width: 264px;
+  height: 348px;
+  z-index: 2;
+  position: absolute;
+  top: 15px;
+  left:614px
+}
+.tablet iframe {
+  width: 867px;
+  height: 1157px;
+  top: 37px;
+  left: 26px;
+  transform: scale(0.24);
+  -webkit-transform: scale(0.24);
+}
+.desktop {
+  position: absolute;
+  width: 594px;
+  height: 457px;
+  background: url("http://tcuvecom.cdn2.cafe24.com/img/apple_mockup.png") no-repeat 0 0;
+  top: 0px;
+  left: 0px;
+}
+.desktop iframe {
+  transform: scale(0.342);
+  left: 21px;
+  top: 25px;
+  width: 1600px;
+  height: 900px;
+  -webkit-transform: scale(0.342);
+}
+.url {
+  position: absolute;
+  top: 415px;
+  left: 480px
+}
+.url input {
+  font-size: 20px;
+  font-family: 'lato', cursive;
+  width: 420px;
+  padding: 5px;
+  border: 2px solid #00a19a;
+  border-radius: 5px;
+  color: #0096cf;
+  opacity: .6;
+}
+.url input:focus {
+  opacity: 1;
+}
+.url button, #button {
+  font-family: 'lato', cursive;
+  font-size: 20px;
+  color: #FFF;
+  width: 80px;
+  padding: 5px;
+  background: #00a19a;
+  border: 1px solid #00a99d;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: .6;
+  transition: opacity 0.5s;
+}
+.url button:hover, #button:hover {
+  opacity: 1;
+}
+.title {
+	font-family:'Quicksand',Arial, Helvetica, sans-serif;
+	font-size:36px;
+	margin-bottom:20px;
+	font-weight:700
+}
+.detail {
+	font-family:'Quicksand',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	margin:10px 0;
+	list-style:none
+}
+.browser img {height:32px;margin:30px 5px 0 0}
+
+</style>
+</head>
+
+<body>
+<div class="topnav"><img src="http://tcuvecom.cdn2.cafe24.com/img/t-cuve logo(200).png" style="height:26px; margin:2px 10px">
+	<ul>
+    	<li><a href="http://t-cuve.com">home</a></li>
+    	<li><a href="http://t-cuve.kr/main">shop</a></li>
+        <li><a href="http://t-cuve.com/showroom">showroom</a></li>
+        <li><a href="http://t-cuve.com/showroom/#/showroom/contact-us/">contact</a></li>
+    </ul>
+</div>
+<div class="wrapper">
+<div class="title"><a href="http://t-cuve.com/creative-agency/web/card/hsh-dol" title="Click to visit site">WebCard - Invitaion</a></div>
+<!-- <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3.png" width="133" height="64" alt="HTML5 Powered with CSS3 / Styling" title="HTML5 Powered with CSS3 / Styling"><img src="../chrome_firefox_opera_safari_ie-512.png" height="32"> -->
+<div class="function"style="display:none">Responsive, HTML5, CSS3 - Works with IE6~, Chrome, Safari, Opera, Firefox | 웹표준,반응형 웹페이지</div>
+<div class="devices">
+	<div class="mobile">
+	  <iframe id="mobile">
+	  </iframe>
+	</div>
+	<div class="tablet">
+	  <iframe id="tablet">
+	  </iframe>
+	</div>
+	<div class="desktop">
+	  <iframe id="desktop">
+	  </iframe>
+	</div>
+    <div class="url">
+	<input id="getURL" placeholder="http://www.">
+	<button type="button">GO</button>
+	</div>
+</div>
+<div class="detail">
+반응형 웹페이지 - 다양한 디스플레이에서 같은 내용이 다른 레이아웃으로 보여집니다. <a href="http://www.responsinator.com/?url=t-cuve.com/creative-agency/web/card/hsh-dol" target="_blank" id="button" style="margin-left:10px">DEMO</a><a href="http://t-cuve.com/showroom/#/showroom/contact-us/" target="_self" id="button" style="margin-left:10px">제작문의</a>
+</div>
+<div class="browser" >
+<img src="http://tcuvecom.cdn2.cafe24.com/img/html5.png" title="html5" alt="html5"><img src="http://tcuvecom.cdn2.cafe24.com/img/css3.png" title="css3" alt="css3"><img src="http://tcuvecom.cdn2.cafe24.com/img/chrome.png" title="chrome" alt="chrome"><img src="http://tcuvecom.cdn2.cafe24.com/img/firefox.png" title="firefox" alt="firefox"><img src="http://tcuvecom.cdn2.cafe24.com/img/opera.png" title="opera" alt="opera"><img src="http://tcuvecom.cdn2.cafe24.com/img/safari.png" title="safari" alt="safari"><img src="http://tcuvecom.cdn2.cafe24.com/img/ie.png" title="ie" alt="ie"><img src="http://tcuvecom.cdn2.cafe24.com/img/apple.png" title="apple" alt="apple"><img src="http://tcuvecom.cdn2.cafe24.com/img/android.png" title="android" alt="android">
+</div>
+<div class="browser" style="display:none"><img src="../logo.png"><img src="../chrome-512.png"><img src="../firefox-512.png"><img src="../opera-512.png"><img src="../safari-512.png"><img src="../ie8-700.png"></div>
+<div class="detail">HTML5, CSS3, jQuery, JavaScript, Responsive Layout<br>Compatible Browsers : Chrome, Safari, Opera, Firefox, IE 6~</div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://t-cuve.com/js/prefixfree.min.js"></script>
+<script type="text/javascript">
+/* BEST VIEW in FULL MODE (CTRL + 8) */
+$(function() {
+
+	var srcURL = "http://t-cuve.com/creative-agency/web/card/hsh-dol";
+	$("iframe").attr("src", srcURL);
+	
+	function UpdateFrame() {
+	var getURL = $("#getURL").val();
+
+    if (getURL.match(/^http:/)) {
+            $("iframe").attr("src", getURL);
+        }
+      else  {
+          var validURL = "http://" + getURL;
+          $("iframe").attr("src", validURL);
+        }
+      }
+  
+	$("button").click(function() {
+    UpdateFrame();
+	});
+  
+	$("#getURL").keypress(function(e){
+      if(e.which == 13){
+       UpdateFrame();
+      }
+	});
+});
+</script>
+</body>
+</html>

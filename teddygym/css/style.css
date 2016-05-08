@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Raleway','helvetica neue','helvetica', arial, sans-serif
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; }
+body {line-height: 1; }
+ol, ul {list-style: none; }
+blockquote, q {quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none; }
+table {border-collapse: collapse; border-spacing: 0; }
+a {text-decoration: none}
+.f_right {float:right!important;}
+
+header {position: fixed;width:100%;}
+header nav {margin:25px 0;text-align: center}
+header nav ul li {display: inline-block;margin:0 10px}
+header nav ul li a {font-size: 12px;color:white;padding-bottom: 3px;border-bottom: 1px solid white}
+section .copy {width:100%;text-align: center}
+section.sec_01 {background-color: black}
+section.sec_01 .copy img{width:70%;max-width:752px;padding:120px 0;}
+section.sec_02 {background-color: #C7B299}
+section.sec_02 .copy img{width:70%;max-width:812px;padding:70px 0;}
+section.sec_03, section.sec_05 {background-color:#E6E7E8}
+section.col_2:after {content:"";display:block;clear:both;}
+section.col_2 img{width:100%;float:left;}
+section.col_2 img.txt{max-width:750px;}
+section.sec_04 {background-color: #26A9E0}
+section.sec_04 .copy img{width:80%;max-width:929px;padding:70px 0;}
+section.sec_07 {background-color: #000}
+section.sec_08 {background-color: #999}
+section.sec_08 .copy img{width:70%;max-width:897px;padding:70px 0;}
+
+
+@media screen and (min-width: 500px) {
+	header nav {margin:50px;text-align: left}
+	header nav ul li {margin:0 20px}
+	header nav ul li a {font-size: 22px;padding-bottom: 5px;border-bottom: 2px solid white}
+	section.sec_01 .copy img{padding:300px 0;}
+	section.sec_02 .copy img{padding:170px 0;}
+	section.col_2 img{width:50%;float:left;}
+	section.sec_04 .copy img{padding:158px 0;}
+	section.sec_08 .copy img{padding:123px 0;}
+}
